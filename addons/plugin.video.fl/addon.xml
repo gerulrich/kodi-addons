@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.fl" version="1.0.0" name="Futbol Libre" provider-name="ggu">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.pyxbmct" version="1.3.1"/>
+  <import addon="script.module.requests" version="2.22.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="es">Futbol Libre</summary>
+  <description lang="es">Fubtol Libre - Ver todos los partidos de la liga profesional de futbol</description>
+  <disclaimer lang="es">Fubtol Libre - Ver todos los partidos de la liga profesional de futbol</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.png</screenshot>
+    <screenshot>resources\screenshot-02.png</screenshot>
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
