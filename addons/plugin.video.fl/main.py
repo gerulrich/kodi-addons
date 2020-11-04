@@ -177,6 +177,8 @@ def play_video(path):
     # Create a playable item with a path to play.
     r = requests.get(path)
     m = re.search('url=(https:\/\/[^\"]+)', r.content)
+    play_item.setProperty('inputstreamaddon', 'inputstream.adaptive')
+    play_item.setProperty('inputstream.adaptive.manifest_type', 'hls')
     url = m.group(1)
     
     play_item = xbmcgui.ListItem(path=url)
