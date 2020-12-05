@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="repository.ggu" name="ggu add-on repository" provider-name="ggu" version="1.0.1">
+<addon id="repository.ggu" name="ggu add-on repository" provider-name="ggu" version="1.0.2">
   <extension name="ggu add-on repository" point="xbmc.addon.repository">
     <info compressed="true">https://github.com/gerulrich/kodi-addons/raw/main/repository.ggu/addons.xml</info>
     <checksum>https://github.com/gerulrich/kodi-addons/raw/main/repository.ggu/addons.xml.md5</checksum>
