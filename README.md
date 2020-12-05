@@ -1,6 +1,6 @@
 # How to install
 
-- Download https://github.com/gerulrich/kodi-addons/releases/download/1.0.0/repository.ggu-1.0.0.zip
+- Download latest release from https://github.com/gerulrich/kodi-addons/releases
 - Install repository from kodi (install from zip file)
 - Install addons
 - Enjoy!!!
