@@ -28,8 +28,13 @@ VIDEOS = {'Liga Profesional Argentina':
                         'name': 'Opcion 1',
                         'thumb': 'https://e00-ar-marca.uecdn.es/claro/assets/multimedia/imagenes/2020/10/29/16040065653584.jpg',
                         'video': 'https://sv3.futbollibre.net/superliga.html',
-                        'genre': 'Sports'}
-                    ]
+                        'genre': 'Sports'},
+                    {
+                        'name': 'Opcion 2',
+                        'thumb': 'https://e00-ar-marca.uecdn.es/claro/assets/multimedia/imagenes/2020/10/29/16040065653584.jpg',
+                        'video': 'https://sv3.futbollibre.net/superliga2.html',
+                        'genre': 'Sports'
+                    }]
         }
 def get_url(**kwargs):
     """
@@ -145,6 +150,7 @@ def list_videos(category):
         # 'mediatype' is needed for skin to display info for this ListItem correctly.
         list_item.setInfo('video', {'title': video['name'],
                                     'genre': video['genre'],
+                                    'plot': 'La transmision comienza 5 minutos antes del partido',
                                     'mediatype': 'video'})
         # Set graphics (thumbnail, fanart, banner, poster, landscape etc.) for the list item.
         # Here we use the same image for all items for simplicity's sake.
